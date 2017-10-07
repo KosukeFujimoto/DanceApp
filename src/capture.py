@@ -21,4 +21,4 @@ def video_to_frames(video, path_output_dir):
     cv2.destroyAllWindows()
     vidcap.release()
 
-#video_to_frames('nekomimi.mp4', './test_video')
+video_to_frames('nekomimi.mp4', './test_video')

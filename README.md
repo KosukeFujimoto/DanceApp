@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Human Pose DanceApp Estimation with TensorFlow
 
 ![](images/teaser.png)
@@ -82,3 +83,28 @@ Please cite ArtTrack and DeeperCut in your publications if it helps your researc
         url = {http://arxiv.org/abs/1605.03170},
         author = {Eldar Insafutdinov and Leonid Pishchulin and Bjoern Andres and Mykhaylo Andriluka and Bernt Schiele}
     }
+
+
+# DanceApp
+
+Dependencies<br \>
+1.python3 <br \>
+2.tensor-flow <br\>
+3.pose-tensor <br\>
+4.<br\>
+Task<br\>
+
+--------- Smart Phone ---------- <\br>
+1.Smatphone App to get Video Data <\br>
+2.Shows score from Server. <\br>
+
+-------- Server ---------------- <\br>
+1. Get Video Data from Smartphone  <\br>
+2. Convert Video to Images <\br>
+3. Apply pose-tensor to get joints points and store them into Server<\br>
+4. Comparison and mathmatics <\br>
+5. Return to Smartphone <\br>
+
+
+
+>>>>>>> 554c13fd18163feb7985a10dc0f385da26734b80

@@ -19,5 +19,8 @@
 4. Comparison and mathmatics 
 5. Return to Smartphone 
 
-
+###
+singleperson.py should be in pose-tensor/demo/
+capture.py should be in pose-tensor/
+run.sh should be in pose-tensor/demo/
 

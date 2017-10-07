@@ -10,6 +10,7 @@ def video_to_frames(video, path_output_dir):
     # x is the frame index
     vidcap = cv2.VideoCapture(video)
     count = 0
+    vidcap.set(cv2.CAP_PROP_FPS, 20)
     while vidcap.isOpened():
         success, image = vidcap.read()
         if success:
@@ -20,4 +21,4 @@ def video_to_frames(video, path_output_dir):
     cv2.destroyAllWindows()
     vidcap.release()
 
-video_to_frames('test.mp4', './test_video')
+#video_to_frames('nekomimi.mp4', './test_video')
